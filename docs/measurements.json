@@ -1,0 +1,44 @@
+{
+  "scope": "single-run development observations, not averaged benchmarks",
+  "full_frame": {
+    "width": 480,
+    "height": 320,
+    "format": "RGB565",
+    "bytes": 307200,
+    "python_seconds": 20.416,
+    "native_seconds": 0.669
+  },
+  "two_round_scan": {
+    "before_seconds": 108.2,
+    "after_seconds": 64.4,
+    "samples": 241,
+    "center_command": 84,
+    "command_range": [
+      0,
+      180
+    ],
+    "unit_moves": 720,
+    "sample_stride": 3,
+    "move_seconds": 0.03,
+    "settle_seconds": 0.1
+  },
+  "implementation": {
+    "clock_mhz": 125,
+    "wns_ns": 0.305,
+    "whs_ns": 0.026,
+    "tns_ns": 0,
+    "ths_ns": 0,
+    "lut": 1660,
+    "registers": 2046,
+    "bram_tiles": 0,
+    "dsp": 1,
+    "external_io_delay_warnings_remain": true
+  },
+  "not_validated": [
+    "systematic distance accuracy",
+    "full-angle physical calibration",
+    "long-term reliability",
+    "new project reconstruction script full build",
+    "stable notebook full cold-start hardware replay"
+  ]
+}
