@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.pyc
+.echo_native_spi/
+.ipynb_checkpoints/
+*.jou
+*.log
+.Xil/
