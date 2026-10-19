@@ -1,0 +1,4 @@
+# Use the PYNQ image packages on the board; gcc must be present.
+pynq
+numpy
+Pillow
